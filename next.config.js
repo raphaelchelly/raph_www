@@ -56,7 +56,9 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
-    dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
+  // Warning: This allows production builds to successfully complete even if
+  // your project has ESLint errors.
+  ignoreDuringBuilds: true,
   },
   async headers() {
     return [
