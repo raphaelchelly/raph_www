@@ -19,10 +19,7 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <>
-    export default function Home({ posts }) {
-      return (
-        <>
-          <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+        <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="pt-6 pb-8 space-y-2 md:space-y-5">
               <div className="flex items-center justify-between">
