@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Raphaël Chelly
+avatar: /static/images/profile-two.png
+occupation: Marketing Project Manager
+company: Octopia
+email: hi@raphaelchelly.com
+twitter: https://twitter.com/raphael_chelly
+linkedin: https://www.linkedin.com/raphaelchelly
+github: https://github.com/Raphythe
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I currently work in Bordeaux as a Marketing Project Manager at Octopia. Graduated from a Master Grande Ecole in Excelia Business School, I am passionate about digital and new technologies.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+During my various professional experiences, I was able to discover many sectors of activity such as wines and spirits at Pernod Ricard where I had the opportunity to spend a year as a digital marketing project manager for the French and international market.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Then I had the opportunity to discover the B to B activity at Microsoft. In my free time, I work with companies in the digital field through the company I co-founded: Fabrilab.
