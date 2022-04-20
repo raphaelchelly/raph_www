@@ -20,13 +20,25 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+      <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+        <div className="flex items-center justify-between">
+          <div className="">
+            <h1 className="mb-2 text-2xl font-extrabold tracking-tight leading-11 text-slate-900 dark:text-slate-100 sm:text-6xl sm:leading-10 md:text-6xl md:leading-14">
+              Raphaël Chelly
+            </h1>
+            <h2 className="mb-2 text-2xl font-bold tracking-tight leading-11 text-gray-700 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+              Portfolio of a digital marketing guy who codes a bit.
+            </h2>
+          </div>
+          <div>
+            <Image
+              src="/static/images/profile.png"
+              alt="avatar"
+              width="200px"
+              height="200px"
+              className=" [clip-path: circle(30px at 35px 35px);]"
+            />
+          </div>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
