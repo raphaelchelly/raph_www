@@ -5,33 +5,33 @@ import SocialIcon from '@/components/social-icons'
 export default function Footer() {
   return (
     <footer>
-    <div className="flex flex-col items-center mt-16">
-            <div className="flex mb-3 space-x-4">
+    <div className="mt-16 flex flex-col items-center mt-16">
+            <div className="mb-3 flex space-x-4">
               <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size="5" />
               <SocialIcon kind="github" href={siteMetadata.github} size="5" />
               <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="5" />
               <SocialIcon kind="twitter" href={siteMetadata.twitter} size="5" />
             </div>
-            <div className="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
               <div>{`© ${new Date().getFullYear()}`}</div>
               <div>{` • `}</div>
               <div>{siteMetadata.author}</div>
             </div>
-            <div className="flex flex-col md:flex-row mb-8 space-x-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="mb-8 flex flex-col space-x-2 text-sm text-gray-500 dark:text-gray-400 md:flex-row">
               <Link
-                className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
+                className="hover:text-primary-600 hover:underline dark:hover:text-primary-600"
                 href="/"
               >
                 home
               </Link>
               <Link
-                className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
+                className="hover:text-primary-600 hover:underline dark:hover:text-primary-600"
                 href="/blog"
               >
                 stuff
               </Link>
               <Link
-                className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
+                className="hover:text-primary-600 hover:underline dark:hover:text-primary-600"
                 href="/about"
               >
                 about
