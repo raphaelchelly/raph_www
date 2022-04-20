@@ -22,13 +22,13 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+        <div className="space-y-2·pt-6·pb-8">
           <div className="flex items-center justify-between">
             <div className="">
-              <h1 className="mb-2 text-2xl font-extrabold tracking-tight leading-11 text-slate-900 dark:text-slate-100 sm:text-6xl sm:leading-10 md:text-6xl md:leading-14">
+              <h1 className="mb-2 text-2xl font-extrabold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-6xl sm:leading-10 md:text-6xl md:leading-14">
                 Raphaël Chelly
               </h1>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight leading-11 text-gray-700 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+              <h2 className="mb-2 text-2xl font-bold leading-11 tracking-tight text-gray-700 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
                 Portfolio of a digital marketing guy who codes a bit.
               </h2>
             </div>
