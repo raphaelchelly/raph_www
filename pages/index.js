@@ -44,57 +44,9 @@ export default function Home({ posts }) {
           </div>
           <p className="text-lg leading-7 text-slate-600 dark:text-slate-300">
           <p className="my-4 leading-loose">
-          I currently work in Bordeaux as a Marketing Project Manager at {" "}
-          <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-900 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-900 hover:decoration-blue-500/30 focus:text-orange-500 focus:ring-orange-500/40 dark:text-white dark:decoration-blue-400 dark:hover:text-blue-400 dark:hover:decoration-blue-400/30 dark:focus:text-blue-400 dark:focus:ring-blue-400/40"
-          href="https://www.octopia.com/"
-          rel="noreferrer"
-          target="_blank"
-          >
-          Octopia
-          </a>
-          .{" "}
-          Graduated from a Master in Management at {" "}
-          <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-500 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-500 hover:decoration-sky-500/30 focus:text-blue-500 focus:ring-sky-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
-          href="https://www.excelia-group.com/"
-          rel="noreferrer"
-          target="_blank"
-          >
-          Excelia Business School
-        </a>
-        , {" "}
-        I am passionate about digital, new technologies and Web3 projects. During my professional experiences, I was able to discover many sectors of activity : Wines and Spirits at {" "}
-        <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
-          href="https://www.pernod-ricard.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Pernod Ricard
-        </a>{" "}
-        as a Digital Project Manager & New Technologies at  {" "}
-        <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-yellow-500 decoration-2 underline-offset-2 transition duration-100 hover:text-yellow-500 hover:decoration-yellow-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
-          href="https://www.microsoft.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Microsoft
-        </a>
-         {" "}
-        as a Marketing Project Manager. On the side, I develop the company I co-founded: {" "}
-        <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-violet-500 decoration-2 underline-offset-2 transition duration-100 hover:text-violet-500 hover:decoration-violet-500/30 focus:text-violet-500 focus:ring-violet-500/40 dark:text-white dark:decoration-violet-400 dark:hover:text-violet-400 dark:hover:decoration-violet-400/30 dark:focus:text-violet-400 dark:focus:ring-violet-400/40"
-          href="https://www.fabrilab.net/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Fabrilab
-        </a>
-        . Versatile in digital marketing, I am confident in several aspects such as Social Media, SEO, E-CRM & Content creation. {" "}
-      </p>
-      </p>
+          I currently work in Bordeaux as a Marketing Project Manager at Octopia.Graduated from a Master in Management at Excelia Business School, I am passionate about digital, new technologies and Web3 projects. During my professional experiences, I was able to discover many sectors of activity : Wines and Spirits at Pernod Ricard as a Digital Project Manager & New Technologies at Microsoft as a Marketing Project Manager. On the side, I develop the company I co-founded: Fabrilab. Versatile in digital marketing, I am confident in several aspects such as Social Media, SEO, E-CRM & Content creation. {" "}
+          </p>
+          </p>
     <div className="mt-8 flex flex-wrap gap-4 text-center">
     <a
       className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-blue-500 py-2 px-2.5 font-medium text-white shadow-lg shadow-blue-500/10 transition selection:bg-white/30 hover:bg-blue-500/80 hover:shadow-blue-500/5 focus:ring-blue-500/40 dark:bg-blue-400 dark:text-zinc-900 dark:shadow-blue-400/10 dark:selection:bg-zinc-900/30 dark:hover:bg-blue-400/80 dark:hover:shadow-blue-400/5 dark:focus:ring-blue-400/40 sm:w-auto sm:px-3 sm:pl-2.5"
