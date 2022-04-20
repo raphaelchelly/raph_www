@@ -4,6 +4,8 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Image from '@/components/Image'
+
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -40,74 +42,160 @@ export default function Home({ posts }) {
             />
           </div>
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
-          {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
-            return (
-              <li key={slug} className="py-12">
-                <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date)}</time>
-                      </dd>
-                    </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
-                        <div>
-                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                            <Link
-                              href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
-                            >
-                              {title}
-                            </Link>
-                          </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
-                        </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                          {summary}
-                        </div>
-                      </div>
-                      <div className="text-base font-medium leading-6">
-                        <Link
-                          href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link>
-                      </div>
-                    </div>
+        <div className="content mt-12 sm:mt-24">
+          <h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">
+            Work
+          </h3>
+          <ul className="mt-8">
+            <li className="my-5 flex items-center gap-4 text-zinc-500 dark:text-zinc-350">
+              <a
+                className="link focusable font-medium text-zinc-800 dark:text-white"
+                href="https://www.octopia.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+              <Image
+                src="/static/images/octopia.jpg"
+                alt="Octopia"
+                width="50px"
+                height="50px"
+                className="rounded-md"
+              />
+              </a>
+                <div className="flex min-w-0 flex-col justify-center">
+                           <p className="mb-1 flex items-center">
+                             <span className="truncate font-semibold text-zinc-700 dark:text-zinc-100">
+                               Octopia
+                              </span>
+                      <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                        2021
+                        <span className="mx-0.5 text-zinc-350 dark:text-zinc-550">
+                          —
+                        </span>
+                        Today
+                      </span>
+                    </p>
+                    <p className="flex items-center truncate">
+                      <span className="flex-1 truncate text-zinc-500 dark:text-zinc-400">
+                        Marketing Project Manager
+                      </span>
+                    </p>
                   </div>
-                </article>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
-      {posts.length > MAX_DISPLAY && (
-        <div className="flex justify-end text-base font-medium leading-6">
-          <Link
-            href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="all posts"
-          >
-            All Posts &rarr;
-          </Link>
+                  </li>
+                <li className="my-5 flex items-center gap-4 text-zinc-500 dark:text-zinc-350">
+                <a
+                className="link focusable font-medium text-zinc-800 dark:text-white"
+                href="https://www.fabrilab.net/"
+                rel="noreferrer"
+                target="_blank"
+              >
+              <Image
+                src="/static/images/fabrilab2.jpg"
+                alt="Octopia"
+                width="50px"
+                height="50px"
+                className="rounded-md"
+              />
+              </a>
+              <div className="flex min-w-0 flex-col justify-center">
+                    <p className="mb-1 flex items-center">
+                    <span className="truncate font-semibold text-zinc-700 dark:text-zinc-100">
+                      Fabrilab
+                    </span>
+                    <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                      2017
+                      <span className="mx-0.5 text-zinc-350 dark:text-zinc-550">
+                        —
+                      </span>
+                      Today
+                    </span>
+                  </p>
+                  <p className="flex items-center truncate">
+                    <span className="flex-1 truncate text-zinc-500 dark:text-zinc-400">
+                      Co-founder & Project Manager
+                    </span>
+                  </p>
+                </div>
+                </li>
+                <li className="my-5 flex items-center gap-4 text-zinc-500 dark:text-zinc-350">
+                <a
+                className="link focusable font-medium text-zinc-800 dark:text-white"
+                href="https://www.microsoft.com/"
+                rel="noreferrer"
+                target="_blank"
+                >
+                <Image
+                  src="/static/images/microsoft.jpg"
+                  alt="Octopia"
+                  width="50px"
+                  height="50px"
+                  className="rounded-md"
+                />
+                </a>
+                <div className="flex min-w-0 flex-col justify-center">
+                           <p className="mb-1 flex items-center">
+                             <span className="truncate font-semibold text-zinc-700 dark:text-zinc-100">
+                               Microsoft
+                              </span>
+                      <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                        2019
+                        <span className="mx-0.5 text-zinc-350 dark:text-zinc-550">
+                          —
+                        </span>
+                        2020
+                      </span>
+                    </p>
+                    <p className="flex items-center truncate">
+                      <span className="flex-1 truncate text-zinc-500 dark:text-zinc-400">
+                        Marketing Project Manager Intern
+                      </span>
+                    </p>
+                  </div>
+                  </li>
+            <li className="my-5 flex items-center gap-4 text-zinc-500 dark:text-zinc-350">
+              <a
+                className="link focusable font-medium text-zinc-800 dark:text-white"
+                href="https://www.pernod-ricard.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+              <Image
+                src="/static/images/pernod-ricard.jpg"
+                alt="Octopia"
+                width="50px"
+                height="50px"
+                className="rounded-md"
+              />
+              </a>
+              <div className="flex min-w-0 flex-col justify-center">
+                         <p className="mb-1 flex items-center">
+                           <span className="truncate font-semibold text-zinc-700 dark:text-zinc-100">
+                             Pernod Ricard
+                            </span>
+                    <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                      2018
+                      <span className="mx-0.5 text-zinc-350 dark:text-zinc-550">
+                        —
+                      </span>
+                      2019
+                    </span>
+                  </p>
+                  <p className="flex items-center truncate">
+                    <span className="flex-1 truncate text-zinc-500 dark:text-zinc-400">
+                      Digital Project Manager Intern
+                    </span>
+                  </p>
+                </div>
+            </li>
+          </ul>
         </div>
-      )}
-      {/* {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )} */}
-    </>
-  )
-}
+
+        {/* {siteMetadata.newsletter.provider !== '' && (
+          <div className="flex items-center justify-center pt-4">
+            <NewsletterForm />
+          </div>
+        )} */}
+
+      </>
+    )
+  }
