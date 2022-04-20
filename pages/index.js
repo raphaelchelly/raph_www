@@ -22,7 +22,7 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2·pt-6·pb-8">
+        <div className="space-y-2 pt-6 pb-8">
           <div className="flex items-center justify-between">
             <div className="">
               <h1 className="mb-2 text-2xl font-extrabold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-6xl sm:leading-10 md:text-6xl md:leading-14">
@@ -224,7 +224,7 @@ export default function Home({ posts }) {
 
   <section>
     <div className="mt-8 flex flex-wrap gap-4 text-right">
-    <div className="mt-2·grid·grid-cols-1·gap-2·lg:grid-cols-2·lg:gap-8">
+    <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8">
      <div className="lg:py-16">
       <h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">
         TotalEnergies
@@ -251,10 +251,10 @@ export default function Home({ posts }) {
 
 <section>
 <div className="mt-8 flex flex-wrap gap-4 text-left">
-<div className="mt-2·grid·grid-cols-1·gap-2·lg:grid-cols-2·lg:gap-8">
+<div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8">
   <div className="relative h-64 overflow-hidden sm:h-64 lg:h-full">
     <Image
-      className="h-auto·max-w-sm shadow-lg"
+      className="h-auto max-w-sm shadow-lg"
       src="/static/images/browser_toy.png"
       alt="avatar"
       width="800"
@@ -278,9 +278,9 @@ export default function Home({ posts }) {
 </section>
 
 <div className="content mt-12 sm:mt-24">
-<h3·className="mb-6·text-lg·font-semibold·text-zinc-800·dark:text-white">Work</h3>
+<h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">Work</h3>
   <ul className="mt-8">
-    <li·className="dark:text-zinc-350·my-5·flex·items-center·gap-4·text-zinc-500
+    <li className="my-5 flex items-center gap-4 text-zinc-500 dark:text-zinc-350">
       <a
         className="link focusable font-medium text-zinc-800 dark:text-white"
         href="https://www.octopia.com/"
