@@ -42,11 +42,11 @@ export default function Home({ posts }) {
               />
             </div>
           </div>
-          <p className="space-y-4 text-zinc-500 dark:text-slate-300">>
+          <p className="space-y-4 text-zinc-500 dark:text-slate-300">
           <p className="my-4 leading-loose">
           I currently work in Bordeaux as a Marketing Project Manager at {" "}
           <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-900 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-900 hover:decoration-blue-500/30 focus:text-orange-500 focus:ring-orange-500/40 dark:text-white dark:decoration-blue-400 dark:hover:text-blue-400 dark:hover:decoration-blue-400/30 dark:focus:text-blue-400 dark:focus:ring-blue-400/40"
+          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-sky-700 decoration-2 underline-offset-2 transition duration-100 hover:text-sky-700 hover:decoration-sky-500/30 focus:text-orange-500 focus:ring-sky-500/40 dark:text-white dark:decoration-blue-400 dark:hover:text-blue-400 dark:hover:decoration-blue-400/30 dark:focus:text-blue-400 dark:focus:ring-blue-400/40"
           href="https://www.octopia.com/"
           rel="noreferrer"
           target="_blank"
@@ -75,7 +75,7 @@ export default function Home({ posts }) {
         </a>{" "}
         as a Digital Project Manager & New Technologies at  {" "}
         <a
-          className="focusable rounded-sm font-medium text-zinc-800 underline decoration-yellow-500 decoration-2 underline-offset-2 transition duration-100 hover:text-yellow-500 hover:decoration-yellow-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
+          className="focusable rounded-sm font-medium text-green-800 underline decoration-green-500 decoration-2 underline-offset-2 transition duration-100 hover:text-green-500 hover:decoration-green-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
           href="https://www.microsoft.com/"
           rel="noreferrer"
           target="_blank"
