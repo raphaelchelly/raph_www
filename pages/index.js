@@ -42,7 +42,7 @@ export default function Home({ posts }) {
               />
             </div>
           </div>
-          <p className="text-lg leading-7 text-slate-600 dark:text-slate-300">
+          <p className="space-y-4 text-zinc-500 dark:text-slate-300">>
           <p className="my-4 leading-loose">
           I currently work in Bordeaux as a Marketing Project Manager at {" "}
           <a
