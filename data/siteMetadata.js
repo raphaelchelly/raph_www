@@ -1,19 +1,19 @@
 const siteMetadata = {
-  title: "Raph's website - Porfolio of a digital enthusiast",
+  title: "Raphaël Chelly - Digital marketing project manager",
   author: 'Raphaël Chelly',
   headerTitle: 'Raphaël Chelly',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'Portfolio of a digital marketing guy who codes a bit.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://raph.vercel.app/',
+  siteRepo: 'https://github.com/raphaelchelly/raph_www',
   siteLogo: '/static/images/raph-logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hi@raphaelchelly.com',
-  github: 'https://github.com/Raphythe',
+  github: 'https://github.com/raphaelchelly',
   twitter: 'https://twitter.com/raphael_chelly',
-  linkedin: 'https://linkedin.com/raphaelchelly',
+  linkedin: 'https://linkedin.com/raphael.chelly',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
