@@ -240,9 +240,10 @@ export default function Home({ posts }) {
       </div> <div className="relative h-64 overflow-hidden sm:h-64 lg:h-full">
         <Image
           className="responsive"
-          src="/static/images/MockupELF-TOTAL.png"
-          alt="avatar"
-          layout='fill'
+          src="/static/images/TE_Project_2022.png"
+          alt="TotalEnergies-Project-2022"
+          width="1980"
+          height="1641"
         />
       </div>
     </div>
