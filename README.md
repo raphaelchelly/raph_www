@@ -12,8 +12,7 @@ Welcome to my personal website and portfolio. 🛸
 ## Credits and Inspiration
 
 - Template from [Tailwind nextjs starter blog template](https://github.com/timlrx/tailwind-nextjs-starter-blog) © [`@timlrx`](https://github.com/timlrx)
-- Inspiration from [`@marcbouchenoire`](https://github.com/marcbouchenoire) personal website ](https://github.com/marcbouchenoire/marcbouchenoire.com)
--
+- Inspiration from [`@marcbouchenoire`](https://github.com/marcbouchenoire) personal website : [Repo](https://github.com/marcbouchenoire/marcbouchenoire.com)
 
 ## Roadmap
 
