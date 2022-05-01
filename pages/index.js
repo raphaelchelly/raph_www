@@ -292,7 +292,7 @@ export default function Home({ posts }) {
         target="_blank"
       >
       <Image
-        src="/static/images/octopia.jpg"
+        src="/static/images/workxp/octopia.jpg"
         alt="Octopia"
         width="50px"
         height="50px"
@@ -327,7 +327,7 @@ export default function Home({ posts }) {
         target="_blank"
       >
       <Image
-        src="/static/images/fabrilab2.jpg"
+        src="/static/images/workxp/fabrilab2.jpg"
         alt="Octopia"
         width="50px"
         height="50px"
@@ -362,7 +362,7 @@ export default function Home({ posts }) {
         target="_blank"
         >
         <Image
-          src="/static/images/microsoft.jpg"
+          src="/static/images/workxp/microsoft.jpg"
           alt="Octopia"
           width="50px"
           height="50px"
@@ -397,7 +397,7 @@ export default function Home({ posts }) {
         target="_blank"
       >
       <Image
-        src="/static/images/pernod-ricard.jpg"
+        src="/static/images/workxp/pernod-ricard.jpg"
         alt="Octopia"
         width="50px"
         height="50px"
