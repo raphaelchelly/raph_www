@@ -8,8 +8,8 @@ export default function FourZeroFour() {
         <Image
           src="/static/images/error404_rc.png"
           alt="error 404"
-          width="150px"
-          height="150px"
+          width="500"
+          height="500"
         />
       </div>
       </div>
