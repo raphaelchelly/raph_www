@@ -1,19 +1,21 @@
-import Link from '@/components/Link'
-import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
-import siteMetadata from '@/data/siteMetadata'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
-import Image from '@/components/Image'
+import Link from '@/components/Link';
+import { PageSEO } from '@/components/SEO';
+import Tag from '@/components/Tag';
+import siteMetadata from '@/data/siteMetadata';
+import { getAllFilesFrontMatter } from '@/lib/mdx';
+import formatDate from '@/lib/utils/formatDate';
+import Image from '@/components/Image';
+import projectsData from '@/data/projectsData';
+import Card from '@/components/Card';
 
-import NewsletterForm from '@/components/NewsletterForm'
+import NewsletterForm from '@/components/NewsletterForm';
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 5;
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
+  const posts = await getAllFilesFrontMatter('blog');
 
-  return { props: { posts } }
+  return { props: { posts } };
 }
 
 export default function Home({ posts }) {
@@ -169,92 +171,22 @@ export default function Home({ posts }) {
           A selection of projects I worked on in the past few years.
         </p>
       </div>
-      <section>
-        <div className="mt-8 flex flex-wrap gap-4 text-left">
-          <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8">
-            <div className="relative h-64 overflow-hidden sm:h-64 lg:h-full">
-              <Image
-                className="h-auto max-w-sm shadow-lg"
-                src="/static/images/browser_toy.png"
-                alt="avatar"
-                width="800"
-                height="500"
-              />
-            </div>
-            <div className="lg:py-16">
-              <h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">
-                Toy Surfboards
-              </h3>
-              <article className="space-y-4 text-zinc-500 dark:text-slate-300">
-                <p>
-                  Within the context of its digital development, I have accompanied and realized the
-                  e-commerce site of the renowned shaper Didier Damestoy. I developed several
-                  features: product catalog, online payment system, natural referencing.
-                </p>
-              </article>
-            </div>
-          </div>
+      <div className="container py-12">
+        <div className="-m-4 flex flex-wrap">
+          {projectsData.map((d) => (
+            <Card
+              key={d.title}
+              title={d.title}
+              description={d.description}
+              imgSrc={d.imgSrc}
+              href={d.href}
+            />
+          ))}
         </div>
-      </section>
-
-      <section>
-        <div className="mt-8 flex flex-wrap gap-4 text-right">
-          <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8">
-            <div className="lg:py-16">
-              <h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">
-                TotalEnergies
-              </h3>
-              <article className="space-y-4 text-zinc-500 dark:text-slate-300">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque
-                  tenetur quis eius quos ea neque sunt, accusantium soluta minus veniam tempora
-                  deserunt? Molestiae eius quidem quam repellat.
-                </p>
-              </article>
-            </div>{' '}
-            <div className="relative h-64 overflow-hidden sm:h-64 lg:h-full">
-              <Image
-                className="h-auto max-w-sm shadow-lg"
-                src="/static/images/TE-Project-2022.png"
-                alt="TotalEnergies-Project-2022"
-                width="1980"
-                height="1641"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="mt-8 flex flex-wrap gap-4 text-left">
-          <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8">
-            <div className="relative h-64 overflow-hidden sm:h-64 lg:h-full">
-              <Image
-                className="h-auto max-w-sm shadow-lg"
-                src="/static/images/browser_toy.png"
-                alt="avatar"
-                width="800"
-                height="500"
-              />
-            </div>
-            <div className="lg:py-16">
-              <h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">
-                Toy Surfboards
-              </h3>
-              <article className="space-y-4 text-zinc-500 dark:text-slate-300">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque
-                  tenetur quis eius quos ea neque sunt, accusantium soluta minus veniam tempora
-                  deserunt? Molestiae eius quidem quam repellat.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
 
       <div className="content mt-12 sm:mt-24">
-        <h3 className="mb-6 text-lg font-semibold text-zinc-800 dark:text-white">Work</h3>
+        <h2 className="mb-2 text-xl font-bold text-zinc-800 dark:text-white">Work</h2>
         <ul className="mt-8">
           <li className="dark:text-zinc-350 my-5 flex items-center gap-4 text-zinc-500">
             <a
@@ -397,5 +329,5 @@ export default function Home({ posts }) {
         </div>
       )} */}
     </>
-  )
+  );
 }

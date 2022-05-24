@@ -1,28 +1,28 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    title: 'Toy Surfboards',
+    description: `What if you could look up any information in the world?`,
+    imgSrc: '/static/images/projects/browser_toy.png',
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: 'Total Energies Lubricants',
+    description: `Creation of Guidelines for Small & Big Packaging`,
+    imgSrc: '/static/images/projects/TE-Project-2022.png',
     href: '/blog/the-time-machine',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: 'Microsoft Education',
+    description: `YouTube Channel and content creation.`,
+    imgSrc: '/static/images/projects/browser_toy.png',
     href: '/blog/the-time-machine',
   },
-]
+  {
+    title: 'Havana Club x Vald',
+    description: `YouTube Channel and content creation.`,
+    imgSrc: '/static/images/projects/browser_toy.png',
+    href: '/blog/the-time-machine',
+  },
+];
 
-export default projectsData
+export default projectsData;
