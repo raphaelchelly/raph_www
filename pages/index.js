@@ -23,23 +23,23 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <div className="flex items-center justify-between">
-            <div className="">
-              <h1 className="mb-2 text-2xl font-extrabold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-6xl sm:leading-10 md:text-6xl md:leading-14">
+        <div className="mx-auto flex max-w-2xl flex-col items-start justify-center border-gray-200 pb-16 dark:border-gray-700">
+          <div className="flex flex-col-reverse items-start sm:flex-row">
+            <div className="flex flex-col pr-8">
+              <h1 className="mb-1 text-3xl font-bold tracking-tight text-zinc-800 dark:text-white md:text-5xl">
                 Raphaël Chelly
               </h1>
-              <h2 className="mb-2 text-2xl font-bold leading-11 tracking-tight text-gray-700 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+              <h2 className="mb-1 text-xl font-bold tracking-tight text-zinc-600 dark:text-white md:text-2xl">
                 Portfolio of a digital marketing guy who codes a bit.
               </h2>
             </div>
-            <div>
+            <div className="relative mb-8 mr-auto w-[100px] sm:mb-0 sm:w-[200px]">
               <Image
                 src="/static/images/profile.png"
                 alt="avatar"
                 width="200px"
                 height="200px"
-                className=" [clip-path: circle(30px at 35px 35px);]"
+                className="rounded-full"
               />
             </div>
           </div>
