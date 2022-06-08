@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: "Raphaël Chelly - Digital marketing project manager",
+  title: 'Raphaël Chelly - Digital marketing project manager',
   author: 'Raphaël Chelly',
   headerTitle: 'Raphaël Chelly',
   description: 'Portfolio of a digital marketing guy who codes a bit.',
@@ -13,7 +13,7 @@ const siteMetadata = {
   email: 'hi@raphaelchelly.com',
   github: 'https://github.com/raphaelchelly',
   twitter: 'https://twitter.com/raphael_chelly',
-  linkedin: 'https://linkedin.com/raphael.chelly',
+  linkedin: 'https://www.linkedin.com/in/raphaelchelly',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -77,6 +77,6 @@ const siteMetadata = {
       shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
   },
-}
+};
 
-module.exports = siteMetadata
+module.exports = siteMetadata;
