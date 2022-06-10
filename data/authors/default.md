@@ -12,6 +12,7 @@ github: https://github.com/raphaelchelly
 Graduated from a **Master in Management** at Excelia Business School, I am passionate about **digital and new technologies.** Creative, proactive, versatile and with a good understanding of digital and marketing, **I am confident in my ability to tackle new missions.** Organized and rigorous, I possess a range of key business and interpersonal skills that I have developed through my professional experiences.
 
 - [💼 Experience](#experience)
+- [🧑🏻‍💻 Side Project](#side-project)
 - [🎓 Education](#education)
 - [🤹🏼‍♂️ Skills](#skills)
 - [🏐 Interests](#interests)
@@ -23,14 +24,6 @@ Graduated from a **Master in Management** at Excelia Business School, I am passi
 `Oct 2021 - Today`
 
 Responsible for **the acquisition and marketing development of the Octopia Products offer** in order to develop the activity and e-commerce sales in France and internationally.
-
-### Cofounder & Project Manager @[Fabrilab](https://fabrilab.net)
-
-`Sept 2017 - Today`
-
-Creation of a communication agency in the form of a micro-enterprise. Fabrilab supports self-employed and small businesses in their **digital transition.**
-
-- Main clients : TotalEnergies, Solis International, SCEBOG (1st agricultural cooperative of Guyana)...
 
 ### Marketing Project Manager @[Microsoft](https://microsoft.net)
 
@@ -49,6 +42,16 @@ As part of the International Marketing team and under the responsibility of the 
 `Jul 2018 - Jan 2019`
 
 Support to the Digital Manager on the deployment of the **digital strategy of the Havana Club brand on the French market.**
+
+## Side Project
+
+### Cofounder & Project Manager @[Fabrilab](https://fabrilab.net)
+
+`Sept 2017 - Today`
+
+Creation of a communication agency in the form of a micro-enterprise. Fabrilab supports self-employed and small businesses in their **digital transition.**
+
+- Main clients : TotalEnergies, Solis International, SCEBOG (1st agricultural cooperative of Guyana)...
 
 ## Education
 
