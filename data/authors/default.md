@@ -1,6 +1,6 @@
 ---
 name: Raphaël Chelly
-avatar: /static/images/pp-raph.jpg
+avatar: /static/images/avatar.jpg
 occupation: Marketing Project Manager
 company: Octopia
 email: hi@raphaelchelly.com
