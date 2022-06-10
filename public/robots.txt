@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://raph.vercel.app/sitemap.xml
+Sitemap: https://raphaelchelly.com/sitemap.xml
