@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: 'https://www.raphaelchelly.com/',
   siteRepo: 'https://github.com/raphaelchelly/raph_www',
   siteLogo: '/static/images/raph-logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hi@raphaelchelly.com',
   github: 'https://github.com/raphaelchelly',
