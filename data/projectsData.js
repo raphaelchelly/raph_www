@@ -7,13 +7,13 @@ const projectsData = [
   },
   {
     title: 'Toy Surfboards',
-    description: `Creation & developpement of a ecommerce website`,
+    description: `Creation & developpement of a ecommerce website.`,
     imgSrc: '/static/images/projects/browser_toy.png',
     href: '/blog/projects/toy-surfboards',
   },
   {
     title: 'TotalEnergies',
-    description: `Creation of Guidelines for Small & Big Packaging`,
+    description: `Creation of Guidelines for Small & Big Packaging.`,
     imgSrc: '/static/images/projects/TE-Project-2022.png',
     href: '/blog/projects/total-energies',
   },
