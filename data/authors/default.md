@@ -69,9 +69,9 @@ Member of the «Conférence des Grandes Ecoles», AMBA, AACSB, EQUIS and EPAS ac
 - 🇪🇸 Spanish
 - 🤹🏼‍♂️ Project Management
 - 🌐 WordPress
-- 💻 Digital Marketing\*\*
+- 💻 Digital Marketing
 - 🎨 Adobe CC
-- 🔍 SEO\*\*
+- 🔍 SEO
 - 📊 Microsoft 365
 - 📨 E-CRM Management
 - 📱 Social Media Management
