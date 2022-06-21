@@ -44,16 +44,7 @@ export default function Home({ posts }) {
         </div>
         <p className="space-y-4 text-zinc-500 dark:text-slate-300">
           <p className="my-4 leading-loose">
-            I currently work in Bordeaux as a Marketing Project Manager at{' '}
-            <a
-              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-sky-700 decoration-2 underline-offset-2 transition duration-100 hover:text-sky-700 hover:decoration-sky-500/30 focus:text-orange-500 focus:ring-sky-500/40 dark:text-white dark:decoration-blue-400 dark:hover:text-blue-400 dark:hover:decoration-blue-400/30 dark:focus:text-blue-400 dark:focus:ring-blue-400/40"
-              href="https://www.octopia.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Octopia
-            </a>
-            . Graduated from a Master in Management at{' '}
+            Graduated from a Master in Management at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-500 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-500 hover:decoration-sky-500/30 focus:text-blue-500 focus:ring-sky-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://www.excelia-group.com/"
@@ -82,7 +73,17 @@ export default function Home({ posts }) {
             >
               Microsoft
             </a>{' '}
-            as a Marketing Project Manager. On the side, I develop the company I co-founded:{' '}
+            as a Marketing Project Manager. Today I work in Bordeaux as a Marketing Project Manager
+            at{' '}
+            <a
+              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-sky-700 decoration-2 underline-offset-2 transition duration-100 hover:text-sky-700 hover:decoration-sky-500/30 focus:text-orange-500 focus:ring-sky-500/40 dark:text-white dark:decoration-blue-400 dark:hover:text-blue-400 dark:hover:decoration-blue-400/30 dark:focus:text-blue-400 dark:focus:ring-blue-400/40"
+              href="https://www.octopia.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Octopia
+            </a>
+            . Besides that, I cofounded the communication agency{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-violet-500 decoration-2 underline-offset-2 transition duration-100 hover:text-violet-500 hover:decoration-violet-500/30 focus:text-violet-500 focus:ring-violet-500/40 dark:text-white dark:decoration-violet-400 dark:hover:text-violet-400 dark:hover:decoration-violet-400/30 dark:focus:text-violet-400 dark:focus:ring-violet-400/40"
               href="https://www.fabrilab.net/"
@@ -91,8 +92,8 @@ export default function Home({ posts }) {
             >
               Fabrilab
             </a>
-            . Versatile in digital marketing, I am confident in several aspects such as Social
-            Media, SEO, E-CRM & Content creation.{' '}
+            , that I'm still working on. Versatile & curious in digital marketing, I am confident in
+            several aspects such as Social Media, SEO, E-CRM & Content creation.{' '}
           </p>
         </p>
         <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -183,7 +184,7 @@ export default function Home({ posts }) {
         </div>
       </div>
       <div className="content mt-12 sm:mt-24">
-        <h2 className="mb-2 text-xl font-bold text-zinc-800 dark:text-white">Experience</h2>
+        <h2 className="mb-2 text-xl font-bold text-zinc-800 dark:text-white">Experiences</h2>
         <ul className="mt-8">
           <li className="dark:text-zinc-350 my-5 flex items-center gap-4 text-zinc-500">
             <a

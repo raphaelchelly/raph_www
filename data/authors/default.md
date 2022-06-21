@@ -63,18 +63,18 @@ Member of the «Conférence des Grandes Ecoles», AMBA, AACSB, EQUIS and EPAS ac
 
 ## Skills
 
-|                             |        |
-| --------------------------- | ------ |
-| **English**                 | ⚫⚫⚫ |
-| **Spanish**                 | ⚫⚪⚪ |
-| **Project Management**      | ⚫⚫⚪ |
-| **WordPress**               | ⚫⚫⚫ |
-| **Digital Marketing**       | ⚫⚫⚫ |
-| **Adobe CC**                | ⚫⚫⚪ |
-| **SEO**                     | ⚫⚫⚪ |
-| **Microsoft 365**           | ⚫⚫⚪ |
-| **E-CRM Management**        | ⚫⚫⚪ |
-| **Social Media Management** | ⚫⚫⚫ |
+### Hard Skills:
+
+- 🇬🇧 English
+- 🇪🇸 Spanish
+- 🤹🏼‍♂️ Project Management
+- 🌐 WordPress
+- 💻 Digital Marketing\*\*
+- 🎨 Adobe CC
+- 🔍 SEO\*\*
+- 📊 Microsoft 365
+- 📨 E-CRM Management
+- 📱 Social Media Management
 
 ### Soft Skills:
 
@@ -93,7 +93,7 @@ Member of the «Conférence des Grandes Ecoles», AMBA, AACSB, EQUIS and EPAS ac
 | ----------------------------------------------------- | --------------------------------------- |
 | ![Bodyboarding](/static/images/bodyboarding-raph.jpg) | ![Wave](/static/images/wave-france.jpg) |
 
-### Other:
+### Others:
 
 - 🗺️ Discovery and Traveling
 - 📷 Photography
@@ -101,7 +101,7 @@ Member of the «Conférence des Grandes Ecoles», AMBA, AACSB, EQUIS and EPAS ac
 
 ### Humanitarian:
 
-- 🤝🏼 Volunteer teacher in Cambodia in 2017 for 3 months in a children’s centre **«Les Enfants de Klang Leu».** As a teacher, I taught a foreign language and IT. Practice hygiene rules and help with the daily life of the center.
+- 🤝🏼 Volunteer teacher in Cambodia in 2017 for 3 months in a children’s centre **"Les Enfants de Klang Leu".** As a teacher, I taught French, English and IT. Practice hygiene rules and help with the daily life of the center.
 
 ### Other Experiences:
 
@@ -111,5 +111,5 @@ Member of the «Conférence des Grandes Ecoles», AMBA, AACSB, EQUIS and EPAS ac
 - **2018:** Ambassador [ASUS](https://www.asus.com/fr/) Vivobook S and ASUS ZenFone 5
 - **2017-2018:** Digital Project Manager of the Student Office of Excela Business School
 - **2017:** Hotel receptionist in Australia at the [Nomads Noosa Hotel](https://nomadsworld.com/australia/nomads-noosa/)
-- **2016-2017:** Bank teller at [La Poste Group](https://www.lapostegroupe.com/fr) (Replacement during the holidays)
+- **2016-2017:** Bank teller at [La Poste Group](https://www.lapostegroupe.com/fr) (replacement during the holidays)
 - **2015:** Online advisor at [CIC](https://www.cic.fr/fr/index.html) (6-month fixed-term contract)

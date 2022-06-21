@@ -7,7 +7,7 @@ const projectsData = [
   },
   {
     title: 'Toy Surfboards',
-    description: `Creation & developpement of a ecommerce website.`,
+    description: `Creation & developpement of a e-commerce website.`,
     imgSrc: '/static/images/projects/browser_toy.png',
     href: '/blog/projects/toy-surfboards',
   },
