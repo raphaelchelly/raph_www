@@ -98,6 +98,7 @@ Member of the «Conférence des Grandes Ecoles», AMBA, AACSB, EQUIS and EPAS ac
 - 🗺️ Discovery and Traveling
 - 📷 Photography
 - 🎶 Music
+- ♟️ Chess ➡️ [Chess.com](https://www.chess.com/member/raphythe)
 
 ### Humanitarian:
 
